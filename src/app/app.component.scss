@@ -153,22 +153,23 @@ button {
     font-weight: 500;
     z-index: -1;
 }
-.ellipse-right{
-    position: relative;
-    // z-index: 1;
-}
-.ellipse-right::before{
-    position: absolute;
-    content: '';
-    right:-100px;
-    bottom: -164px;
-    background-image: url("../assets/Ellipse\ 48.svg");
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    z-index: -1;
-}
+// .ellipse-right{
+//     position: relative;
+//     overflow: hidden;
+//     // z-index: 1;
+// }
+// .ellipse-right::before{
+//     position: absolute;
+//     content: '';
+//     right:-100px;
+//     bottom: -164px;
+//     background-image: url("../assets/Ellipse\ 48.svg");
+//     width: 200px;
+//     height: 200px;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     z-index: -1;
+// }
 .left-ellipse{
     position: relative;
     z-index: 1;
